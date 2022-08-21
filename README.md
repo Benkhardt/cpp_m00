@@ -15,3 +15,10 @@ This repo is about my own learning path but everyone is free to try out the exer
 - `make re` to re-compile everything.
 
 **Step 3.** execute the binary `./bin <args>`
+
+## EOF
+I will add README's to every exercise within this repo/project and explanations to code aswell later on...
+
+To be more informed about the single exercises please read the en.subject.pdf.
+
+

@@ -7,13 +7,23 @@ About memory acllocation, refereces, pointers to members, switch...
 This repo is about my own learning path but everyone is free to try out the exercises:
 
 **Step 1.** Navigate into any ex[][] you want and type:
-	make
-to create the binary.
-	make clean
+```shell
+make
+```
+to create the binary.	
+```shell
+make clean
+```
 to clean anything created by the compiler except executable.
-	make fclean
+```shell
+make fclean
+```
 to clean anything created by the compiler. 
-	make re 
+```shell
+make re
+```
 to clean anything created by the compiler and compile again.
-	make all
+```shell
+make all
+```
 to create the binary.

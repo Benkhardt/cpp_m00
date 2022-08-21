@@ -2,11 +2,11 @@
 
 
 
-## Description:
+	## Description:
 	A brief introduction to 'C++'.
 	About memory acllocation, refereces, pointers to members, switch...
 
-## How to use this repo:
+	## How to use this repo:
 	This repo is about my own learning path but everyone is free to try out the exercises:
 	Step 1. Navigate into any ex[][] you want and type:
 		```make``` to create the binary.

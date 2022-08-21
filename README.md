@@ -14,4 +14,4 @@ This repo is about my own learning path but everyone is free to try out the exer
 - `make fclean` to clear anything created by compiler.
 - `make re` to re-compile everything.
 
-**Step 3.** execute the binary `./bin \<args\>`
+**Step 3.** execute the binary `./bin <args>`

@@ -21,4 +21,24 @@ I will add README's to every exercise within this repo/project and explanations 
 
 To be more informed about the single exercises please read the en.subject.pdf.
 
+However, I don't use any references in my functions, example:
 
+```
+void  f(int &x){
+  x += 5; 
+}
+
+int main(){
+  int y = 5;
+  f(y);
+  std::cout << y << std::endl;
+  return 0;
+}
+```
+Output:
+```shell
+10
+```
+We setting up the "raw" reference in our function, building the full reference by giving over the pre-defined int 'y'. 
+Now, inside our function f(int &x) 'y' is identified by 'x', . It doesn't get copied, just builds reference. 
+Imagine having big data in a class you want to give over to a function. Without references the whole data would be copied. 

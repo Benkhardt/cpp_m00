@@ -39,6 +39,6 @@ Output:
 ```shell
 10
 ```
-We setting up the "raw" reference in our function, building the full reference by giving over the pre-defined int 'y'. 
-Now, inside our function f(int &x) 'y' is identified by 'x', . It doesn't get copied, just builds reference. 
+We setting up the "raw" reference in our function, building the full reference by giving over the pre-defined ``int y`. 
+Now, inside our function ``f(int &x)`` ``int y`` is identified by ``int &x``.
 Imagine having big data in a class you want to give over to a function. Without references the whole data would be copied. 

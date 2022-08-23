@@ -40,8 +40,9 @@ Output:
 10
 ```
 We setting up the "raw" reference in our function, building the full reference by giving over the pre-defined identifier ``int y``. 
-Now, inside our function ``f(int &x)`` ``int y`` is identified by ``int &x``.
+Now, inside our function ``vi f(int &x)`` ``int y`` is identified by ``int &x``.
 Imagine having big data in a class you want to give over to a function. Without references the whole data would be copied. 
 So 2 attributes which are outstanding:
+
 - It doesn't copy values from mem address to mem address (or scope to scope...)
 - we can change, or better, modify the value inside another function.
